@@ -1,1 +1,47 @@
-/* write your override styles here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    background: white !important;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  
+  
+  #wall {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  
+  
+  .tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
+    display: none !important;
+    background: none !important;
+    visibility: hidden !important;
+  }
+  
+  
+  #wall, .parent, div {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  
+  
+  .parent {
+    position: relative !important;
+    display: block !important;
+  }
+  
+  
+  h1, h2, h3, h4, h5, h6, p {
+    color: black !important;
+    text-shadow: none !important;
+    font-weight: normal;
+  }
+  
